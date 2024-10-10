@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "movie-review-sentiment"
+version = "0.1.0"
+description = ""
+authors = ["Grainier Perera <grainier.perera@macrometa.com>"]
+readme = "README.md"
+packages = [{include = "movie_review_sentiment"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jupyter = "^1.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
